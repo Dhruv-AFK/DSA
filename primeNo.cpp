@@ -13,18 +13,17 @@ int main()
     {
         if( n%i == 0)
         {
-            cout<<" number is not prime "<< n << endl;
             isPrime = 0;
             break;
         }
     }
-    if ( isPrime = 0 )
+    if ( isPrime == 0 )
     {
-        cout<<"number is not prime"<<endl;
+        cout<<"number is not prime : "<<n<<endl;
     }
     else
     {
-        cout<<" : number is prime"<<n<<endl;
+        cout<<"number is prime : "<<n<<endl;
     }
 
 }
