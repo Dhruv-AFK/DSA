@@ -15,4 +15,15 @@ int main()
     cout << " address is " << *ptr << endl;
 
     cout << "size of the pointer is " << sizeof(num) << endl; 
+
+
+    int a = num ; 
+    a++;
+
+    cout << num << endl;
+
+    int *p = &num;
+    (*p)++;
+
+    cout << num << endl;
 }
