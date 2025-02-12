@@ -5,7 +5,7 @@ int main (){
 
 
     int arr[10] = { 1,2,3,4,5};
-    char ch[60] = "a b c d e ";
+    char ch[60] = "a b c d e "; 
 
     int *ptr = &arr[0];
     char *c = &ch[0];
@@ -17,5 +17,11 @@ int main (){
     cout<< c << endl;
     cout<< *c << endl;
 
+
+    char temp = 'z';
+    char *p = &temp;
+
+    cout << p << endl;
+    cout << *p << endl;
     
 }
